@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+@import url("./Layout/NavBar.css");
+@import url("./Layout/Footer.css");
+@import url("./Home/Home.css");
+@import url("./Mobile/HomeMobile.css");
+
+:root{
+  --bluScuro: #101928;
+  --bluMedio: #446391;
+  --bluChiaro: #98ACCF;
+  --rossoChiaro: #D10B0C;
+  --rossoScuro: #870001;
+}
+
+body{
+  background-color: var(--bluScuro);
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+*{
+  font-family: "Orbitron", sans-serif;
+}
+
+.GlowRosso {
+  -webkit-box-shadow: 0px 0px 16px 9px rgba(209, 11, 11, 1);
+  -moz-box-shadow: 0px 0px 16px 9px rgba(209, 11, 11, 1);
+  box-shadow: 0px 0px 16px 9px rgba(209, 11, 11, 1);
+}
+
+.GlowBlu {
+  -webkit-box-shadow: 0px 0px 16px 9px rgba(152, 172, 207, 1);
+  -moz-box-shadow: 0px 0px 16px 9px rgba(152, 172, 207, 1);
+  box-shadow: 0px 0px 16px 9px rgba(152, 172, 207, 1);
+}
+
+.MenuShadow {
+  box-shadow: 0px 9px 12px -4px var(--bluScuro) inset, 0px -9px 12px -4px var(--bluScuro) inset;
+  -webkit-box-shadow: 0px 9px 12px -4px var(--bluScuro) inset, 0px -9px 12px -4px var(--bluScuro) inset;
+  -moz-box-shadow: 0px 9px 12px -4px var(--bluScuro) inset, 0px -9px 12px -4px var(--bluScuro) inset;
+}

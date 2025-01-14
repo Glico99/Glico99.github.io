@@ -1,0 +1,31 @@
+#ProfileLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  inline-size: 20%;
+}
+
+#ProfileLinks  a {
+  block-size: 50px;
+  inline-size: 50px;
+  margin-inline: 7px;
+  user-select: none;
+  transition: all .2s;
+  border-radius: 100%;
+  border: none;
+  padding: 15px;
+}
+
+
+#ProfileLinks a:hover {
+  border: 1px solid var(--bluChiaro);
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(152, 172, 207, 1);
+  -moz-box-shadow: 0px 0px 16px 0px rgba(152, 172, 207, 1);
+  box-shadow: 0px 0px 16px 0px rgba(152, 172, 207, 1);
+  cursor: pointer;
+}
+
+#ProfileLinks img{
+  block-size: 100%;
+}

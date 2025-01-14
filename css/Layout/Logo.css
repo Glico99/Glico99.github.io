@@ -1,0 +1,21 @@
+#Logo, #Logo2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  inline-size: 20%;
+  block-size: 100%;
+}
+
+.LogoImg {
+  background-image: url("../../media/icons/HyperGamingKeysLogo.png");
+  background-size: cover;
+  background-position: center;
+  inline-size: 80%;
+  block-size: 100%;
+}
+
+.LogoSlogan {
+  text-align: center;
+  color: var(--bluChiaro);
+  font-size: .8em;
+}

@@ -1,0 +1,95 @@
+#Navigation {
+  inline-size: 60%;
+  block-size: 90%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SearchBar {
+  display: flex;
+  inline-size: 100%;
+  block-size: 40%;
+  border-radius: 5px;
+  transition: all .5s;
+}
+
+.SearchBar * {
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+}
+
+.SearchBox {
+  inline-size: 90%;
+  text-align: center;
+  background-color: var(--bluMedio);
+  border: 1px solid var(--rossoChiaro);
+  font-size: .8em;
+  font-weight: 700;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.SearchBox::placeholder {
+  color: var(--bluScuro);
+}
+
+.SearchButton {
+  inline-size: 10%;
+  background-color: var(--rossoChiaro);
+  color: var(--bluChiaro);
+  border: none;
+  font-size: .7em;
+  font-weight: 700;
+  border-radius: 0 5px 5px 0;
+}
+
+.SearchResults {
+  background-color: var(--bluChiaro);
+  position: absolute;
+  top: 110px;
+  display: none;
+  flex-direction: column;
+  inline-size: 40%;
+  font-size: .8em;
+  border-radius: 5px;
+}
+
+.SearchItem {
+  margin-block: 5px;
+  margin-inline-start: 15px;
+  padding-block: 10px;
+  margin-inline: 3px;
+  font-size: 1.2em;
+  font-weight: 900;
+  padding-inline: 5px;
+}
+
+.NavLinks {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  inline-size: 90%;
+  block-size: 40%;
+  margin-block-start: 4%;
+  color: var(--bluChiaro);
+}
+
+.NavLink {
+  text-align: center;
+  font-size: .8em;
+  font-weight: 500;
+  padding: 3px;
+  border-radius: 7px;
+  user-select: none;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.NavLink:hover {
+  border: 1px solid var(--bluChiaro);
+  font-size: 1em;
+  padding: 8px;
+}

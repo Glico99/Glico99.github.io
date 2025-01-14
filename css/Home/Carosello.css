@@ -1,0 +1,73 @@
+/*Carosello*/
+.glide {
+  block-size: 90%;
+  inline-size: 47%;
+  display: flex;
+  flex-direction: column;
+}
+
+.glide__track {
+  block-size: 100%;
+}
+
+.glide__slides {
+  block-size: 100%;
+  inline-size: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.glide__slide__title {
+  background-color: var(--bluMedio);
+  margin-block-start: 700px;
+  bottom: 20px;
+  padding: 5px;
+  margin-inline: 10%;
+  padding: 5px;
+  font-size: 1.2em;
+  text-align: left;
+  font-weight: 700;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.glide__slide__title span {
+  background-color: var(--rossoChiaro);
+  border-radius: 5px;
+  font-size: 1.5em;
+  font-weight: 900;
+  -webkit-box-shadow: 0px 0px 16px 9px rgba(209, 11, 11, 1);
+  -moz-box-shadow: 0px 0px 16px 9px rgba(209, 11, 11, 1);
+  box-shadow: 0px 0px 16px 9px rgba(209, 11, 11, 1);
+}
+
+.glide__bullets {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  inline-size: 90%;
+  margin-inline: 5%;
+}
+
+.glide__bullet {
+  margin-inline: 10px;
+  inline-size: 30px;
+  block-size: 10px;
+  border-radius: 3px;
+  background-color: transparent;
+  border: 1px solid var(--bluChiaro);
+}
+
+.glide__bullet:hover {
+  background-color: var(--bluChiaro);
+  border: none;
+  cursor: pointer;
+}
+
+.glide__bullet--active {
+  background-color: var(--bluChiaro);
+}

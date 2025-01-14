@@ -1,0 +1,10 @@
+import './Layout/NavBar.js'
+import './Layout/NavBarMenu.js'
+import './Layout/Footer.js'
+import './Mobile/HomeMobile.js'
+
+import './Home/Carosello.js'
+import './Home/ListaGiochi.js'
+import './Home/Secret.js'
+import './Home/BestDeals.js'
+import './Home/Prodotti.js'

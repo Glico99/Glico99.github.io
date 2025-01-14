@@ -1,0 +1,28 @@
+#Vetrina {
+  background-image: url("../../media/icons/SfondoVetrina.jpg");
+  background-size: cover;
+  background-position: center;
+  block-size: 1000px;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0;
+}
+
+#ContenitoreVetrina {
+  background: var(--bluScuro);
+  block-size: 900px;
+  inline-size: 80%;
+  border-radius:  0px 0px 10px 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 1;
+}
+
+#ContenitoreVetrina::-webkit-scrollbar {
+  display: none;
+}
+
+

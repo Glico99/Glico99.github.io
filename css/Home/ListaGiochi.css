@@ -1,0 +1,47 @@
+#ListaGiochi {
+  block-size: 90%;
+  inline-size: 47%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 10px;
+}
+
+#ListaGiochi::-webkit-scrollbar{  
+  display: none;
+}
+
+.GamesCard {
+  color: var(--bluChiaro);
+  block-size: 150px;
+  inline-size: 90%;
+  padding-inline: 5px;
+  margin-block: 10px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+    transition: .3s;
+}
+
+.GamesCard:hover {
+  background-color: var(--bluMedio);
+  color: var(--bluScuro);
+  transform: scale(1.04);
+  cursor: pointer;
+}
+
+.GamesCardSconto{
+  color: black;
+  background-color: var(--rossoChiaro);
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.GamesCardImg {
+  block-size: 80%;
+  margin-inline-end: 10px;
+  border-radius: 5px;
+}

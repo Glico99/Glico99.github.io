@@ -1,0 +1,7 @@
+#ContenitoreBestDeals{
+  margin-inline: 10%;
+  margin-block-start: 5%;
+  block-size: 300px;
+  border-radius: 10px;
+  transition: all .5s;
+}

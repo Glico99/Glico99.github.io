@@ -1,0 +1,44 @@
+.BurgerMenuTitle {
+  margin: 0;
+  padding: 0;
+}
+
+#NavBarMenu {
+  background-color: var(--bluMedio);
+  color: var(--bluScuro);
+  block-size: 0;
+  inline-size: 100%;
+}
+
+.ContenitoreNavBarMenu{
+  opacity: 0;
+}
+
+.NavBarMenuTitle {
+  text-align: center;
+  background-color: var(--bluScuro);
+  color: var(--bluMedio);
+  margin-inline: 40%;
+  border-radius: 8px;
+}
+
+.NavBarMenuList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-inline: 10%;
+}
+
+.NavBarMenuList span {
+  font-weight: 500;
+  transition: all .2s;
+}
+
+.NavBarMenuList span:hover {
+  font-size: 1.3em;
+  cursor: pointer;
+  color: var(--bluMedio);
+  background-color: var(--bluScuro);
+  border-radius: 7px;
+  padding: 8px;
+}

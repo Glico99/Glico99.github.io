@@ -1,0 +1,138 @@
+@media screen and (max-width: 1500px) {
+  #NavBar {
+    padding: 0;
+  }
+
+  #ProfileLinks a {
+    margin-inline: 0;
+    block-size: 40px;
+    inline-size: 40px;
+  }
+
+  .SearchBox {
+    inline-size: 80%;
+  }
+
+  .SearchButton {
+    inline-size: 20%;
+  }
+
+  #NewsLetter {
+    block-size: 35%;
+  }
+
+  #Info {
+    block-size: 65%;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  #NavBar {
+    display: block;
+    position: relative;
+  }
+
+  #Logo {
+    block-size: 50%;
+    inline-size: 100%;
+  }
+
+  .LogoImg {
+    inline-size: 50%;
+  }
+
+  #Navigation {
+    block-size: 30%;
+    inline-size: 100%;
+  }
+
+  .NavLinks {
+    block-size: 20%;
+  }
+
+  .SearchBar {
+    inline-size: 90%;
+  }
+
+  .SearchBox {
+    inline-size: 70%;
+  }
+
+  .SearchButton {
+    inline-size: 30%;
+  }
+
+  #BurgerMenu{
+    color: var(--bluChiaro);
+    font-size: 1.5em;
+    margin: 0;
+    inline-size: 100%;
+    justify-self: center;
+    text-align: center;
+  }
+
+  #BurgerMenuList{
+    background-color: var(--bluChiaro);
+    block-size: 0;
+    inline-size: 100%;
+  }
+
+  #BurgerMenuList *{
+    display: block;
+    margin-block: 5px;
+    text-align: center;
+  }
+
+  #ContenitoreVetrina {
+    display: block;
+    inline-size: 90%;
+    overflow-y: scroll;
+  }
+
+  .glide {
+    inline-size: 100%;
+  }
+
+  #ListaGiochi {
+    display: block;
+    inline-size: 100%;
+    block-size: unset;
+  }
+
+  #Footer {
+    block-size: 900px;
+  }
+
+  #NewsLetter {
+    block-size: 30%;
+  }
+
+  #Info {
+    block-size: 70%;
+  }
+
+  #InfoLinks {
+    display: block;
+  }
+
+  #InfoLinks h1{
+    margin-block: 7px;
+    font-size: 1.5em;
+  }
+
+  #InfoLinks p {
+    margin-block: 0;
+  }
+
+  #Footer {
+    block-size: 800px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .GamesCard {
+    justify-content: flex-start;
+    font-size: .8em;
+    margin: 0
+  }
+}

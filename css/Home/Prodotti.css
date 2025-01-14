@@ -1,0 +1,80 @@
+#Prodotti{
+  margin-inline: 10%;
+  margin-block-start: 5%;
+}
+
+.PiuVenduti{
+  font-size: 1.5em;
+  font-weight: 500;
+  color: var(--bluChiaro);
+}
+
+#ProdottiPiuVenduti{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  overflow: scroll;
+  block-size: 700px;
+  padding-block: 10px;
+  padding-inline: 10px;
+  transition: all .5s;
+}
+
+#ProdottiPiuVenduti::-webkit-scrollbar {
+  display: none;
+}
+
+.Prodotto{
+  inline-size: 250px;
+  block-size: 400px;
+  margin-block: 20px;
+  margin-inline: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.Prodotto:hover{
+  transform: scale(1.05);
+  transition: .3s;
+  cursor: pointer;
+}
+
+.ScontoProdotti{
+  background-color: var(--rossoScuro);
+  inline-size: 100%;
+  block-size: 0px;
+  margin: 0;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  transition: all .3s;
+}
+
+.ScontoProdotti span{
+  margin-inline: 10px;
+}
+
+.ScontoProdotti span:first-of-type{
+  color: grey;
+  text-decoration: line-through;
+}
+
+.ScontoProdotti span:last-of-type{
+  color: var(--bluChiaro);
+}
+
+.MostraAltriProdotti{
+  display: flex;
+  justify-content: center;
+  color: var(--bluChiaro);
+  text-align: center;
+  font-size: .8em;
+  margin: 0;
+  padding: 0;
+}
+
+.MostraAltriProdotti p{
+  margin-inline: 3px;
+}
+
